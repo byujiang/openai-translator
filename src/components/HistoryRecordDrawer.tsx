@@ -66,7 +66,7 @@ export function HistoryRecordDrawerLayout(props: Props) {
     <>
       <input id="history-record-drawer" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content">{children}</div>
-      <div className="drawer-side">
+      <div className="drawer-side my-scrollbar">
         <label htmlFor="history-record-drawer" className="drawer-overlay"></label>
         <div className="p-4 w-[28.75rem] max-w-[100vw] bg-base-100">
           <h1 className="sticky top-0 z-50 flex justify-between w-full text-2xl font-bold align-middle bg-base-100">

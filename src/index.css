@@ -36,3 +36,26 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+.my-scrollbar::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.my-scrollbar::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+
+.my-scrollbar::-webkit-scrollbar:horizontal {
+  height: 11px;
+}
+
+.my-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.my-scrollbar::-webkit-scrollbar-track {
+  background-color: #fff;
+  border-radius: 8px;
+}
